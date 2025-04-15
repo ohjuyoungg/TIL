@@ -36,6 +36,7 @@
 - 그리고 이렇게 얻은 문자를 16진수 byte로 변경한다.
 - 이 3개의 byte를 모아서 UTF-8로 디코딩하면 "가" 라는 글자를 얻을 수 있다.
 
+
 ```java
 import static java.nio.charset.StandardCharsets.*;
 
