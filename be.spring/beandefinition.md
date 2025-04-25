@@ -22,3 +22,12 @@
 - 스프링 컨테이너 = 건설 회사
 - 빈 객체 = 실제 지어진 건물
 > 건설 회사(스프링)는 미리 준비된 설계도(BeanDefinition)를 보고 건물을 짓는 것 처럼, 스프링은 BeanDefinition을 참고해 실제 객체를 만들어낸다.
+
+1. 소스코드
+   - @Component, @Bean 등으로 Bean 후보 등록
+
+2. BeanDefinition 생성
+   - 스프링이 각 Bean에 대한 "설계도" 만들고 컨테이너에 등록
+
+3. 실제 객체 생성
+   - 설계도 보고 BeanFactory가 객체 생성, DI, 초기화 등 수행
